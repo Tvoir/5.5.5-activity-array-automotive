@@ -11,15 +11,7 @@ class Vehicle {
         this.numberOfWheels = 0;
     }
 
-    start() {
-        if (this.fuel > 0) {
-            return this.started = true;
-            console.log("engine started...!!!");
-        } else {
-            return this.started = false;
-            console.log("engine cannot start...");
-        }
-    }
+    
     accelerate() {
         if (this.started) {
             if (this.fuel > 0) {
